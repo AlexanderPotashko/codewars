@@ -10,6 +10,15 @@ divisors(13); //should return "13 is prime"
 
 You can assume that you will only get positive integers as inputs.
 
+```js
 function divisors(integer) {
   ... 
 };
+```
+
+
+```
+Test.assertSimilar(divisors(15), [3, 5]);
+Test.assertSimilar(divisors(12), [2, 3, 4, 6]);
+Test.assertEquals(divisors(13), "13 is prime");
+```
